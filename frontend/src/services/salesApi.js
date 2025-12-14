@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/sales";
+const API_URL = "https://retail-sales-management-project.onrender.com/sales";
 
 export const fetchSales = async (query) => {
   try {
